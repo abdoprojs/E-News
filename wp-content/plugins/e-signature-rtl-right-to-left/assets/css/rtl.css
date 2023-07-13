@@ -1,0 +1,49 @@
+.doc_page
+{
+    direction: rtl;
+}
+.doc_title {
+    text-align: right ;
+  }
+
+table td,table th 
+{    
+    text-align: right !important;
+}
+
+.col-sm-6 {
+    float: right !important;
+}
+
+.bottom-footer .audit-signature.pull-right {
+    float: left !important;
+}
+
+.bottom-footer .audit-signature.pull-right img {
+    float: left;
+    margin-top: unset !important;
+}
+
+.sign-arrow {
+  right: -14px;
+  -ms-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.footer-agree {
+  direction: rtl;
+}
+
+.esig-template-page .sig-tooltip.active {
+    right: unset !important;
+    left: 10px;
+    text-align: right !important;
+}
+
+#audit-trail-wrapper .main .checksum .code {
+    margin-left: 20px;
+}
+#signatureCanvas {
+    height: 79px !important;
+}
